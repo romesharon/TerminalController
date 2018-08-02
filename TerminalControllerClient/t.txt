@@ -1,0 +1,15 @@
+ Volume in drive C has no label.
+ Volume Serial Number is FCC8-169F
+
+ Directory of C:\Users\user1\IdeaProjects\TerminalControllerClient
+
+08/02/2018  03:08 PM    <DIR>          .
+08/02/2018  03:08 PM    <DIR>          ..
+08/02/2018  03:08 PM    <DIR>          .idea
+04/03/2017  09:41 AM             3,146 file.png
+07/31/2018  06:15 PM    <DIR>          out
+08/02/2018  03:08 PM    <DIR>          src
+08/02/2018  03:08 PM                 0 t.txt
+07/31/2018  05:58 PM               433 TerminalControllerClient.iml
+               3 File(s)          3,579 bytes
+               5 Dir(s)  90,253,529,088 bytes free
