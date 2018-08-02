@@ -1,0 +1,3 @@
+Change Directory,cd,cd,cd
+Show Files,ls,ls,ls
+Hello,hi,yo,hello

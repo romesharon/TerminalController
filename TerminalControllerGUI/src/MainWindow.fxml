@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <Text textAlignment="CENTER" layoutX="250.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to the Terminal Controller!" fx:id="mainText"/>
+      <ListView layoutX="14.0" layoutY="86.0" prefHeight="400.0" prefWidth="400.0" fx:id="usersList"/>
+      <Button layoutX="610.0" layoutY="86.0" onAction="#startUser" text="Start" prefWidth="150" fx:id="startButton"/>
+      <Button layoutX="610.0" layoutY="154.0" onAction="#sendCommand" text="Send" prefWidth="150" fx:id="sendButton"/>
+      <Button layoutX="610.0" layoutY="222.0" onAction="#removeUser" text="Remove" prefWidth="150" fx:id="removeButton"/>
+      <Button layoutX="610.0" layoutY="290.0" onAction="#addCommand" text="Add Command" prefWidth="150" fx:id="addCommandButton"/>
+      <Button layoutX="610.0" layoutY="358.0" onAction="#exit" text="EXIT" prefWidth="150" fx:id="exitButton"/>
+      <ComboBox layoutX="14.0" layoutY="622.0" prefWidth="400.0" fx:id="commandList"/>
+   </children>
+</AnchorPane>
