@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AddCommandController">
+   <children>
+      <TextField layoutX="196.0" layoutY="135.0" fx:id="codeName"/>
+      <TextField layoutX="196.0" layoutY="200.0" fx:id="linuxCode"/>
+      <TextField layoutX="196.0" layoutY="262.0" fx:id="windowsCode"/>
+      <TextField layoutX="196.0" layoutY="324.0" fx:id="macCode"/>
+      <Text layoutX="44.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Code Name:" />
+      <Text layoutX="44.0" layoutY="217.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Linux Command:"/>
+      <Text layoutX="44.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Windows Command:"/>
+      <Text layoutX="44.0" layoutY="341.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mac Command:"/>
+      <Text layoutX="286.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hello, please enter the details."/>
+      <Button layoutX="479.0" layoutY="175.0" mnemonicParsing="false" text="Back" fx:id="backButton" onAction="#backToMain"/>
+      <Button layoutX="479.0" layoutY="250.0" mnemonicParsing="false" text="Save" fx:id="saveButton" onAction="#saveCommand"/>
+   </children>
+</AnchorPane>
